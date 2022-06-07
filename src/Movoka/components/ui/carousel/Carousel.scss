@@ -1,0 +1,55 @@
+.carousel {
+	position: relative;
+}
+
+.carousel > .prev {
+	left: -20px;
+}
+
+.carousel > .next {
+	right: -20px;
+}
+
+.carousel_list {
+	overflow-y: hidden;
+	overflow-x: auto;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.carousel_list::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera*/
+}
+
+.carousel:hover .carousel_btn {
+	opacity: 70%;
+	transition: all 350ms ease 0s;
+}
+
+.carousel_btn {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	top: 0px;
+	height: 100%;
+	z-index: 2;
+	opacity: 0;
+}
+
+.carousel:hover .carousel_btn:hover {
+	opacity: 100%;
+}
+
+.carousel_btn > div {
+	display: inline;
+	background-color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 1.9rem;
+	color: #a1a1a1;
+	font-weight: bold;
+	cursor: pointer;
+}

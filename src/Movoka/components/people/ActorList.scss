@@ -1,0 +1,20 @@
+.actor_info > ul {
+	list-style: none;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.actor_info > ul > li {
+	line-height: 140%;
+}
+
+.actor_image > img {
+	width: 55px;
+	height: 65px;
+	border-radius: 10px;
+}
+
+.actor_name {
+	font-size: 1.2em;
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.provider_list_item {
+	display: table;
+}
+
+.provider_info {
+	display: table-cell;
+	height: inherit;
+}
+
+.provider_info > span {
+	vertical-align: middle;
+}
+
+.provider_logo img {
+	width: 60px;
+	height: 60px;
+	border-radius: 20px;
+}
+
+.provider_link {
+	display: table-cell;
+	height: inherit;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.provider_name {
+	float: left;
+	height: inherit;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.provider_goto {
+	float: right;
+	height: inherit;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "movie_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "node_modules/.bin/mocha $(find ./test -name '*.js') --recursive --require @babel/register"
+  },
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "axios": "^0.21.1",
+    "colorthief": "^2.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.6.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.7",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

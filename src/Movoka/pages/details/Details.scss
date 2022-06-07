@@ -1,0 +1,169 @@
+.contents_details {
+	background-color: #f8f8f8;
+}
+
+.details_container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 5px 10px 5px 10px;
+	// box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.details_left {
+	background-color: #ffffff;
+	width: 655px;
+	border: 1px solid #dfdfdf;
+	border-radius: 7px;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+
+.details_right {
+	background-color: #ffffff;
+	width: 330px;
+	box-sizing: border-box;
+	border: 1px solid #dfdfdf;
+	border-radius: 7px;
+	margin-top: 15px;
+}
+
+.inner_container {
+	padding: 10px 20px 10px 20px;
+	box-sizing: border-box;
+}
+
+.inner_line {
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.inner_line > hr {
+	border: 0px;
+	height: 1px;
+	background: #d1d1d1;
+}
+
+.inner_container h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.inner_container > .movie_details > ul {
+	list-style: none;
+	color: #414141;
+	padding: 0;
+}
+
+.inner_container > .movie_details > ul > li {
+	line-height: 1.25;
+}
+
+.inner_container > h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.inner_container > ul {
+	list-style: none;
+	color: #414141;
+	padding: 0;
+}
+
+.movie_details li {
+	font-size: 16px;
+}
+
+.synopsis .tagline {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.synopsis .description {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.similar_movies .carousel .flexible_movie_list {
+	list-style: none;
+	white-space: nowrap;
+	padding: 0px;
+}
+
+.similar_movies .carousel .flexible_movie_list li {
+	display: inline-block;
+}
+
+.similar_movies .carousel .movie {
+	width: 130px;
+	height: 187px;
+}
+
+.similar_movies .carousel .movie a:link {
+	color: #000000;
+}
+
+.similar_movies .carousel .movie a:visited {
+	color: #000000;
+}
+.similar_movies .carousel .movie a:hover {
+	color: #000000;
+}
+.similar_movies .carousel .movie a:active {
+	color: #000000;
+}
+
+.similar_movies .carousel .movie .movie_title {
+	float: left;
+	width: 70%;
+}
+
+.similar_movies > .carousel .movie .movie_oepn_info {
+	float: right;
+	width: 30%;
+}
+
+.similar_movies > .carousel .movie img {
+	border-radius: 3px;
+	width: 125px;
+	height: 180px;
+}
+
+.similar_movies > .carousel > .carousel_list {
+	height: 205px;
+}
+
+.movie_gallery > .carousel .flexible_movie_list {
+	list-style: none;
+	white-space: nowrap;
+	padding: 0px;
+}
+
+.movie_gallery > .carousel .flexible_movie_list li {
+	display: inline-block;
+}
+
+.movie_gallery > .carousel .movie_screen_shot {
+	width: 280px;
+	height: 157px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.movie_gallery > .carousel .movie_screen_shot:hover {
+	width: 290px;
+	height: 165px;
+	margin-bottom: -5px;
+	transition: all 350ms ease 0s;
+}
+
+.movie_gallery > .carousel .movie_screen_shot img {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}

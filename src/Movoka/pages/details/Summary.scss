@@ -1,0 +1,51 @@
+.contents_summay {
+	padding-top: 21px;
+	padding-bottom: 40px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+.movie_summary {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.movie_summary > .summary {
+	margin-left: 210px;
+}
+
+.summary > h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.summary .contents_reted {
+}
+
+.summary .summary_year {
+	font-size: 1.6rem;
+	font-weight: normal;
+}
+
+.summary > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.summary > ul > li {
+	color: #a1a1a1;
+	font-size: 1.1em;
+}
+
+.rating_info {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.rating_info > .movie_rating {
+	margin-left: 210px;
+	color: #fc0352;
+	margin-top: 30px;
+	font-size: 1.5em;
+}
